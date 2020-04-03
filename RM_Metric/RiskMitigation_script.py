@@ -8,7 +8,7 @@ import os				#import os to describe the path you want to see your output
 # output path is defined as /Desktop/Release-Ticket.xlsx
 out_path = os.path.join(os.path.expanduser("~"), "Desktop", "Release-Ticket.xlsx")
 # access to JIRA API
-jira = JIRA('http://jira.esensi.local:8080/', basic_auth=('berk.akgun', 'Ubor2718+'))
+jira = JIRA('http://jira.esensi.local:8080/', basic_auth=('berk.akgun', 'password'))
 # define the query you want to apply to get your issues in all
 query = 'project = RT '
 # apply the query just defined above, to see all issues set maxResults to 'None' and to see more field related to the issue set expand to 'changelog'
