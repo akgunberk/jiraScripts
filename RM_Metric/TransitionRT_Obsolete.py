@@ -4,7 +4,7 @@ import os
 
 out_path = os.path.join(os.path.expanduser("~"), "Desktop", "Release-Ticket.xlsx")
 
-jira = JIRA('http://jira.esensi.local:8080/', basic_auth=('berk.akgun', 'Ubormetenga+'))
+jira = JIRA('http://jira.esensi.local:8080/', basic_auth=('berk.akgun', 'password'))
 
 query = 'project = RT '
 
